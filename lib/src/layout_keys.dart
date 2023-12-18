@@ -104,8 +104,8 @@ const List<List> _defaultEnglishLayout = [
     "\$",
     VirtualKeyboardKeyAction.Space,
     "#",
-    "!"
-        '&',
+    "!",
+    '&',
     '_',
   ]
 ];
