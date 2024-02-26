@@ -320,12 +320,17 @@ class _VirtualKeyboardState extends State<VirtualKeyboard> {
         );
         break;
       case VirtualKeyboardKeyAction.Space:
-        actionKey = actionKey = Icon(Icons.space_bar, color: textColor);
+        actionKey = actionKey = Icon(
+          Icons.space_bar,
+          color: textColor,
+          size: 40,
+        );
         break;
       case VirtualKeyboardKeyAction.Return:
         actionKey = Icon(
           Icons.keyboard_return,
           color: textColor,
+          size: 40,
         );
         break;
       case VirtualKeyboardKeyAction.SwithLanguage:
